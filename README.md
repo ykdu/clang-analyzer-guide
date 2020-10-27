@@ -19,7 +19,7 @@ from the respective .dia files. If you manage to automate the process on any
 other OS, please share!
 
 ```shell
-# On Ubuntu
+# On Ubuntu 
 apt install dia
 apt install librsvg2-bin
 apt install texlive-full
