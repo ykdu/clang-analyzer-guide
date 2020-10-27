@@ -11,18 +11,19 @@ http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative
 Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
 
-## Downloads:
-
-Binary releases are available right here on github:
-https://github.com/haoNoQ/clang-analyzer-guide/releases
-
-
 ## Compiling:
 
 On Linux, Install `dia`, `rsvg-convert`, and most of LaTeX, then run the
 provided `compile.sh` script. This automates generation of includable diagrams
 from the respective .dia files. If you manage to automate the process on any
 other OS, please share!
+
+```shell
+# On Ubuntu
+apt install dia
+apt install librsvg2-bin
+apt install texlive-full
+```
 
 
 ## Reporting issues:
